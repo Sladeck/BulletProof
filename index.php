@@ -210,5 +210,92 @@ table {
 border-collapse: collapse;
 border-spacing: 0;
 }
+/*************************************************************/
+    h2 {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border: 1px #4CAF50 solid;
+        transition-duration: 0.2s;
+    }
+    .button:hover {
+        background-color: white;
+        color: #4CAF50;
+        border: 1px #4CAF50 solid;
+    }
+    hr {
+        width: 30%;
+    }
+    .article {
+        margin: auto;
+        width: 60%;
+    }
+    .article p{
+        background-color: lightgrey;
+        padding: 10px;
+        margin-top: 5px;
+        text-align: justify;
+    }
+    .article h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .active {
+        background-color: #4CAF50;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
 
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111;
+    }
+    .content-page {
+        margin-top: 100px;
+        margin-left: 10px;
+    }
+    p.error{
+        font-size: 15px;
+        margin: 15px;
+        background-color: red;
+        font-weight: bold;
+        display: block;
+    }
+    form, table {
+        display: block;
+        position: relative;
+        margin: auto;
+        text-align: center;
+        width: 40%;
+    }
 </style>
